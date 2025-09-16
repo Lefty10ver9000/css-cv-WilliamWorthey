@@ -132,6 +132,20 @@ section a:hover {
   transition: transform 0.2s ease-in-out;
 }
 
+/* Lists in Leadership, Awards, and Skills */
+section ul,
+section dl {
+  margin: 10px 0;       /* space above/below */
+  padding-left: 20px;   /* indent so text isn’t touching border */
+}
+
+section li,
+section dt,
+section dd {
+  margin-bottom: 6px;   /* space between items */
+}
+
+
 .card:hover {
   transform: scale(1.02);
 }
@@ -176,4 +190,5 @@ textarea {
   border-radius: 6px;
   font-family: inherit;
   font-size: 1rem;
+
 }
